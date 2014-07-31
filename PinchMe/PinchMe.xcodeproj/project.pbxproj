@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80883B6198A33B80042681F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80883B5198A33B80042681F /* Foundation.framework */; };
+		A80883B8198A33B80042681F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80883B7198A33B80042681F /* CoreGraphics.framework */; };
+		A80883BA198A33B80042681F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80883B9198A33B80042681F /* UIKit.framework */; };
+		A80883C0198A33B80042681F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A80883BE198A33B80042681F /* InfoPlist.strings */; };
+		A80883C2198A33B80042681F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80883C1198A33B80042681F /* main.m */; };
+		A80883C6198A33B80042681F /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80883C5198A33B80042681F /* BIDAppDelegate.m */; };
+		A80883C8198A33B80042681F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80883C7198A33B80042681F /* Images.xcassets */; };
+		A80883CF198A33B80042681F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80883CE198A33B80042681F /* XCTest.framework */; };
+		A80883D0198A33B80042681F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80883B5198A33B80042681F /* Foundation.framework */; };
+		A80883D1198A33B80042681F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80883B9198A33B80042681F /* UIKit.framework */; };
+		A80883D9198A33B80042681F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A80883D7198A33B80042681F /* InfoPlist.strings */; };
+		A80883DB198A33B80042681F /* PinchMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80883DA198A33B80042681F /* PinchMeTests.m */; };
+		A80883E7198A33C30042681F /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80883E5198A33C30042681F /* BIDViewController.m */; };
+		A80883E8198A33C30042681F /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80883E6198A33C30042681F /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80883D2198A33B80042681F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80883AA198A33B80042681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80883B1198A33B80042681F;
+			remoteInfo = PinchMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80883B2198A33B80042681F /* PinchMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80883B5198A33B80042681F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A80883B7198A33B80042681F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A80883B9198A33B80042681F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A80883BD198A33B80042681F /* PinchMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchMe-Info.plist"; sourceTree = "<group>"; };
+		A80883BF198A33B80042681F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A80883C1198A33B80042681F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A80883C3198A33B80042681F /* PinchMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinchMe-Prefix.pch"; sourceTree = "<group>"; };
+		A80883C4198A33B80042681F /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		A80883C5198A33B80042681F /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		A80883C7198A33B80042681F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A80883CD198A33B80042681F /* PinchMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80883CE198A33B80042681F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A80883D6198A33B80042681F /* PinchMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchMeTests-Info.plist"; sourceTree = "<group>"; };
+		A80883D8198A33B80042681F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A80883DA198A33B80042681F /* PinchMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchMeTests.m; sourceTree = "<group>"; };
+		A80883E4198A33C30042681F /* BIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		A80883E5198A33C30042681F /* BIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		A80883E6198A33C30042681F /* BIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80883AF198A33B80042681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80883B8198A33B80042681F /* CoreGraphics.framework in Frameworks */,
+				A80883BA198A33B80042681F /* UIKit.framework in Frameworks */,
+				A80883B6198A33B80042681F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80883CA198A33B80042681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80883CF198A33B80042681F /* XCTest.framework in Frameworks */,
+				A80883D1198A33B80042681F /* UIKit.framework in Frameworks */,
+				A80883D0198A33B80042681F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80883A9198A33B80042681F = {
+			isa = PBXGroup;
+			children = (
+				A80883BB198A33B80042681F /* PinchMe */,
+				A80883D4198A33B80042681F /* PinchMeTests */,
+				A80883B4198A33B80042681F /* Frameworks */,
+				A80883B3198A33B80042681F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80883B3198A33B80042681F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80883B2198A33B80042681F /* PinchMe.app */,
+				A80883CD198A33B80042681F /* PinchMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80883B4198A33B80042681F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80883B5198A33B80042681F /* Foundation.framework */,
+				A80883B7198A33B80042681F /* CoreGraphics.framework */,
+				A80883B9198A33B80042681F /* UIKit.framework */,
+				A80883CE198A33B80042681F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80883BB198A33B80042681F /* PinchMe */ = {
+			isa = PBXGroup;
+			children = (
+				A80883C4198A33B80042681F /* BIDAppDelegate.h */,
+				A80883C5198A33B80042681F /* BIDAppDelegate.m */,
+				A80883E4198A33C30042681F /* BIDViewController.h */,
+				A80883E5198A33C30042681F /* BIDViewController.m */,
+				A80883E6198A33C30042681F /* BIDViewController.xib */,
+				A80883C7198A33B80042681F /* Images.xcassets */,
+				A80883BC198A33B80042681F /* Supporting Files */,
+			);
+			path = PinchMe;
+			sourceTree = "<group>";
+		};
+		A80883BC198A33B80042681F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80883BD198A33B80042681F /* PinchMe-Info.plist */,
+				A80883BE198A33B80042681F /* InfoPlist.strings */,
+				A80883C1198A33B80042681F /* main.m */,
+				A80883C3198A33B80042681F /* PinchMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80883D4198A33B80042681F /* PinchMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80883DA198A33B80042681F /* PinchMeTests.m */,
+				A80883D5198A33B80042681F /* Supporting Files */,
+			);
+			path = PinchMeTests;
+			sourceTree = "<group>";
+		};
+		A80883D5198A33B80042681F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80883D6198A33B80042681F /* PinchMeTests-Info.plist */,
+				A80883D7198A33B80042681F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80883B1198A33B80042681F /* PinchMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80883DE198A33B80042681F /* Build configuration list for PBXNativeTarget "PinchMe" */;
+			buildPhases = (
+				A80883AE198A33B80042681F /* Sources */,
+				A80883AF198A33B80042681F /* Frameworks */,
+				A80883B0198A33B80042681F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchMe;
+			productName = PinchMe;
+			productReference = A80883B2198A33B80042681F /* PinchMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A80883CC198A33B80042681F /* PinchMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80883E1198A33B80042681F /* Build configuration list for PBXNativeTarget "PinchMeTests" */;
+			buildPhases = (
+				A80883C9198A33B80042681F /* Sources */,
+				A80883CA198A33B80042681F /* Frameworks */,
+				A80883CB198A33B80042681F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80883D3198A33B80042681F /* PBXTargetDependency */,
+			);
+			name = PinchMeTests;
+			productName = PinchMeTests;
+			productReference = A80883CD198A33B80042681F /* PinchMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80883AA198A33B80042681F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					A80883CC198A33B80042681F = {
+						TestTargetID = A80883B1198A33B80042681F;
+					};
+				};
+			};
+			buildConfigurationList = A80883AD198A33B80042681F /* Build configuration list for PBXProject "PinchMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A80883A9198A33B80042681F;
+			productRefGroup = A80883B3198A33B80042681F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80883B1198A33B80042681F /* PinchMe */,
+				A80883CC198A33B80042681F /* PinchMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80883B0198A33B80042681F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80883E8198A33C30042681F /* BIDViewController.xib in Resources */,
+				A80883C0198A33B80042681F /* InfoPlist.strings in Resources */,
+				A80883C8198A33B80042681F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80883CB198A33B80042681F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80883D9198A33B80042681F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80883AE198A33B80042681F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80883C6198A33B80042681F /* BIDAppDelegate.m in Sources */,
+				A80883E7198A33C30042681F /* BIDViewController.m in Sources */,
+				A80883C2198A33B80042681F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80883C9198A33B80042681F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80883DB198A33B80042681F /* PinchMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80883D3198A33B80042681F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80883B1198A33B80042681F /* PinchMe */;
+			targetProxy = A80883D2198A33B80042681F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A80883BE198A33B80042681F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80883BF198A33B80042681F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A80883D7198A33B80042681F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80883D8198A33B80042681F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80883DC198A33B80042681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A80883DD198A33B80042681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80883DF198A33B80042681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				INFOPLIST_FILE = "PinchMe/PinchMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A80883E0198A33B80042681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				INFOPLIST_FILE = "PinchMe/PinchMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A80883E2198A33B80042681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinchMe.app/PinchMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PinchMeTests/PinchMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A80883E3198A33B80042681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinchMe.app/PinchMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				INFOPLIST_FILE = "PinchMeTests/PinchMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80883AD198A33B80042681F /* Build configuration list for PBXProject "PinchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80883DC198A33B80042681F /* Debug */,
+				A80883DD198A33B80042681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80883DE198A33B80042681F /* Build configuration list for PBXNativeTarget "PinchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80883DF198A33B80042681F /* Debug */,
+				A80883E0198A33B80042681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A80883E1198A33B80042681F /* Build configuration list for PBXNativeTarget "PinchMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80883E2198A33B80042681F /* Debug */,
+				A80883E3198A33B80042681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80883AA198A33B80042681F /* Project object */;
+}
